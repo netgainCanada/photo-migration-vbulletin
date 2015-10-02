@@ -7,7 +7,7 @@
  */
 
 //HOST, USER, PASS, NAME
-//$link = mysqli_connect('host','dbuser','dbpass','dbname') or die("Error " . mysqli_error($link));
+$link = mysqli_connect('host','dbuser','dbpass','dbname') or die("Error " . mysqli_error($link));
 
 
 $selectFiles = 'SELECT node1 . *
